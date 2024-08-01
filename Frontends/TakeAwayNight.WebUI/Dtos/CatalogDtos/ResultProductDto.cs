@@ -1,0 +1,11 @@
+﻿namespace TakeAwayNight.WebUI.Dtos.CatalogDtos
+{
+    public class ResultProductDto
+    {
+        public string ProducId { get; set; }
+        public string ProducName { get; set; }
+        public string ImageUrl { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+    }
+}
