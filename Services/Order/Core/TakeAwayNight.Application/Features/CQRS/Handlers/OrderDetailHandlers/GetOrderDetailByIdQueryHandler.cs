@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TakeAwayNight.Application.Features.CQRS.Queries.OrderDetailQueries;
-using TakeAwayNight.Application.Features.CQRS.Queries.OrderDetailQureies;
+﻿using TakeAwayNight.Application.Features.CQRS.Queries.OrderDetailQureies;
 using TakeAwayNight.Application.Features.CQRS.Results.OrderDetailResults;
 using TakeAwayNight.Application.Interfaces;
 using TakeAwayNight.Domain.Entities;

@@ -19,7 +19,7 @@ builder.Services.AddScoped<IFeatureService, FeatureService>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
 {
     opt.Authority = builder.Configuration["IdentityServerUrl"];
-    opt.Audience = "";
+    opt.Audience = "ResourceCatalog";
     opt.RequireHttpsMetadata = false;
 });
 
